@@ -139,6 +139,16 @@ footer i {
     padding: 5px;
 
 }
+.open-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.open-element i {
+    font-size: 14px;
+}
+
 
 
 
