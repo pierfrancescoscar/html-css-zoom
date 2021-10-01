@@ -54,7 +54,7 @@ header {
 /* Main */
 main {
     padding: 25px 0px;
-    background: grey;
+    background: black;
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -71,7 +71,6 @@ main {
 .people li {
     width: 300px;
     height: 150px;
-    background-color: orange;
     list-style: none;
 }
 
@@ -80,6 +79,19 @@ main {
     height: 100%;
     object-fit: cover;
 }
+
+.people li {
+    position: relative;
+}
+
+.people-name {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 
 /* Footer */
 
