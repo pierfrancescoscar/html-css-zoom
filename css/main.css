@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -11,12 +12,33 @@ body {
     font-size: 14px;
 }
 
+/* Utilities */
+.top-button {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    background: linear-gradient(#1f1f1f, #3b3b3b);
+    color: white;
+    cursor: pointer;
+    
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
 /* Header */
 
 header {
-    background-color: grey;
-    height: 50px;
+    background-color: black;
 }
+
+.header-button {
+    text-align: right;
+    padding: 10px;
+}
+
+
 
 
 /* Main */
