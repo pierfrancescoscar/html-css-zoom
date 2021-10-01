@@ -90,12 +90,15 @@ main {
     position: absolute;
     left: 0;
     bottom: 0;
+    font-size: 12px;
 }
 
 
 /* Footer */
 
 footer {
-    background-color: lightgray;
-    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#1f1f1f, #3b3b3b);
+    
 }
